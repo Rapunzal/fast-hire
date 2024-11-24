@@ -1,0 +1,280 @@
+body {
+  color: rgb(108, 103, 103);
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  color: #a2d2ff;
+}
+#premium {
+  animation: opacity 1s ease-in-out infinite;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/*=============HACK===================*/
+
+.marquee {
+  white-space: nowrap;
+  width: 1400px;
+  overflow: hidden;
+  display: flex;
+  animation: marquee 10s linear infinite;
+  color: white;
+  justify-content: flex-end;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+.img-container {
+  margin: 0px;
+}
+.nav-container {
+  display: flex;
+  /* push both the blocks to the edges using justify-content */
+  justify-content: space-between;
+  height: 120px;
+}
+
+li > a {
+  text-decoration: none;
+  color: rgb(108, 103, 103);
+}
+.btn {
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: #62b6cb;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #1c748a;
+}
+.right-side {
+  margin-top: 20px;
+}
+nav {
+  border-bottom: 0.3px solid lightgray;
+}
+.right-side li {
+  padding: 0px 20px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register-container {
+  display: flex;
+  justify-content: center;
+  /* border: 0.3px solid lightgray; */
+}
+.input-box {
+  margin: 20px 0px;
+}
+.frm {
+  border: 1px solid lightgray;
+  width: 700px;
+  height: 450px;
+  border-radius: 8px;
+  /* box-shadow: 5px 5px 6px gray; */
+}
+
+.input-box input {
+  height: 35px;
+  width: 95%;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  /* border-radius: 5px; */
+  /* border: hidden; */
+  /* border-bottom: 1px solid lightgray; */
+}
+.input-box select {
+  height: 40px;
+  width: 95%;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  /* border: hidden;
+  border-bottom: 1px solid lightgray; */
+}
+.input-box label {
+  margin-left: 20px;
+}
+input select {
+  margin: 0px 20px;
+}
+.button input {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #62b6cb;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.button input:hover {
+  background-color: #1c748a;
+}
+
+.button {
+  height: 45px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-details .input-box {
+  width: calc(100% / 2 - 20px);
+}
+
+/* ------------card style------------- */
+.card-container {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 900px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.card-body {
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 5px;
+  width: 300px;
+  margin: 20px;
+  transform: width;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body p,
+.card-body h1 {
+  margin: 8px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+}
+/*===================================*/
+/* table style */
+.jobs-table th,
+tr,
+td {
+  border: 1px solid lightgray;
+  text-align: center;
+  height: 40px;
+  width: 240px;
+}
+
+.jobs-table {
+  border-collapse: collapse;
+}
+.tbl-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.jobs-table tr:nth-child(even) {
+  background-color: #d7eced;
+}
+.jobs-table th {
+  background-color: #9cdae0;
+}
+.btn-apply {
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #62b6cb;
+  color: white;
+  font-size: 1rem;
+}
+/* tr:nth-child(odd) {
+  background-color: #bde0fe;
+} */
+/*==========home page===========*/
+
+.job {
+  display: flex;
+  justify-content: center;
+
+  align-content: center;
+}
+/*==============Login form===================*/
+.log-box {
+  display: flex;
+  justify-content: center;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+.user-login input {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  /* border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc; */
+}
+.user-login label {
+  font-size: 1rem;
+}
+.user-login {
+  width: calc(100% / 2 - 20px);
+}
+.user-btn {
+  display: flex;
+  justify-content: center;
+}
+.nothing td,
+tr {
+  border: none;
+  outline: none;
+}

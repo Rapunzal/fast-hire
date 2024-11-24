@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        <ul class="left-side">
+          <li style="margin: 0px">
+            <div class="img-container">
+              <img
+                src="/images/FastHirenoBGround.png"
+                width="150px"
+                height="150px"
+              />
+            </div>
+          </li>
+        </ul>
+        <ul class="right-side">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/featured.html">Featured Jobs</a></li>
+
+          <li><a href="/pages/jobs.html">Jobs</a></li>
+          <li>
+            <a href="/pages/register.html"
+              ><button class="btn">Register</button></a
+            >
+          </li>
+          <li>
+            <a href="/pages/login.html"
+              ><img
+                id="login-img"
+                src="/images/logImg.jpg"
+                height="40px"
+                width="40px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="log-box">
+      <div>
+        <h1>Log In</h1>
+      </div>
+    </div>
+    <div class="log-box">
+      <div class="login-form">
+        <div style="border: 1px solid lightgray; border-radius: 5px">
+          <form>
+            <table
+              class="nothing"
+              style="border-collapse: collapse; border: hidden"
+            >
+              <tr class="user-login">
+                <td><label>Email Id:</label></td>
+                <td>
+                  <input type="text" name="email" />
+                </td>
+              </tr>
+              <tr class="user-login">
+                <td><label>Password:</label></td>
+                <td>
+                  <input type="password" name="password" />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    type="submit"
+                    value="Log In"
+                    class="login-btn"
+                    style="
+                      border: none;
+                      border-radius: 5px;
+                      padding: 10px 30px;
+                      font-size: 1rem;
+                      background-color: rgb(142, 195, 209);
+                      margin-top: 20px;
+                      color: white;
+                    "
+                  />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

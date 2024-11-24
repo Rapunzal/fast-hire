@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      #login-img {
+        margin-top: 0px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        <ul class="left-side">
+          <li style="margin: 0px">
+            <div class="img-container">
+              <img
+                src="/images/FastHirenoBGround.png"
+                width="150px"
+                height="150px"
+              />
+            </div>
+          </li>
+        </ul>
+        <ul class="right-side">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="/pages/featured.html">Featured Jobs</a></li>
+
+          <li><a href="/pages/jobs.html">Jobs</a></li>
+          <li>
+            <a href="/pages/register.html"
+              ><button class="btn">Register</button></a
+            >
+          </li>
+          <li>
+            <a href="/pages/login.html"
+              ><img
+                id="login-img"
+                src="/images/logImg.jpg"
+                height="40px"
+                width="40px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="job">
+      <div class="marquee" style="position: absolute; margin-bottom: 40px">
+        <p class>**Apply for latest Hacakthon</p>
+      </div>
+      <h1 style="position: absolute; top: 150px">
+        <input
+          type="text"
+          placeholder="Search By Job Title"
+          style="
+            border-radius: 20px;
+            padding: 10px 20px;
+            width: 400px;
+            font-size: 1rem;
+            position: absolute;
+            left: 70px;
+            top: 60px;
+            border: 1px solid lightgray;
+          "
+        /><img
+          src="/images/search-icon.jpg"
+          height="30px"
+          width="30px"
+          style="position: absolute; left: 470px; margin-top: 65px"
+        />
+        Search and Apply for jobs of Your Dreams
+      </h1>
+      <div
+        style="
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          left: 1190px;
+          top: 200px;
+          background-color: white;
+          text-align: center;
+          border-radius: 50%;
+          background-color: #62b6cb;
+          color: white;
+          font-size: 1.2rem;
+        "
+      >
+        <p id="premium">
+          <br /><br />Click for Premium<br />
+          Membership<br />
+        </p>
+      </div>
+      <img src="/images/jobSearchGif.gif" alt="mygif" />
+    </div>
+  </body>
+</html>
