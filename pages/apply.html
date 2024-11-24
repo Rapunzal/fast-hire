@@ -9,8 +9,13 @@
       body {
         font-family: "Roboto", sans-serif;
       }
-      #login-img {
-        margin-top: 0px;
+      .apply-box {
+        display: flex;
+        justify-content: center;
+      }
+      .apply-box > div {
+        background-color: #9cdae0;
+        border-radius: 5px;
       }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +40,7 @@
           </li>
         </ul>
         <ul class="right-side">
-          <li><a href="./index.html">Home</a></li>
+          <li><a href="/index.html">Home</a></li>
           <li><a href="/pages/featured.html">Featured Jobs</a></li>
 
           <li><a href="/pages/jobs.html">Jobs</a></li>
@@ -56,54 +61,19 @@
         </ul>
       </nav>
     </header>
-    <div class="job">
-      <div class="marquee" style="position: absolute; margin-bottom: 40px">
-        <p class>**Apply for latest Hacakthon</p>
-      </div>
-      <h1 style="position: absolute; top: 150px">
-        <input
-          type="text"
-          placeholder="Search By Job Title"
-          style="
-            border-radius: 20px;
-            padding: 10px 20px;
-            width: 400px;
-            font-size: 1rem;
-            position: absolute;
-            left: 70px;
-            top: 60px;
-            border: 1px solid lightgray;
-          "
-        /><a href="./pages/jobs.html"
-          ><img
-            src="/images/search-icon.jpg"
-            height="30px"
-            width="30px"
-            style="position: absolute; left: 470px; margin-top: 65px"
-        /></a>
-        Search and Apply for jobs of Your Dreams
-      </h1>
+    <div class="apply-box">
       <div
         style="
-          width: 200px;
-          height: 200px;
-          position: absolute;
-          left: 1190px;
-          top: 200px;
-          background-color: white;
-          text-align: center;
-          border-radius: 50%;
-          background-color: #62b6cb;
-          color: white;
-          font-size: 1.2rem;
+          margin-top: 100px;
+          width: 400px;
+          height: 350px;
+          border: 1px solid lightgray;
         "
       >
-        <p id="premium">
-          <br /><br />Click for Premium<br />
-          Membership<br />
-        </p>
+        <h2 style="margin-top: 130px; padding: 20px; text-align: center">
+          Thanks for applying will get back to you shortly
+        </h2>
       </div>
-      <img src="/images/jobSearchGif.gif" alt="mygif" />
     </div>
   </body>
 </html>
