@@ -1,6 +1,6 @@
 # Fast Hire: A Job Search Portal
 
-As part of skill based assesment,I completed a project that involved creating a basic job search portal titled FastHire using HTML, CSS. This project is designed to showcase my skills in HTML and CSS.It is a static website that allows users to register, login, search and apply for jobs.I used HTML and CSS to design and style the interface.I also gained experience working with version control tools such as Git and GitHub.
+As part of skill based assesment,I completed a project that involved creating a basic job search portal titled FastHire using HTML, CSS. This project is designed to showcase my skills in HTML and CSS.It is a **static website** that allows users to register, login, search and apply for jobs.I used HTML and CSS to design and style the interface.I also gained experience working with version control tools such as Git and GitHub.
 
 ## Tech-Stack-
 
@@ -35,4 +35,16 @@ Use at least two CSS animations.[ included 2 css animations on index.html]
 
 ## Screenshots
 
+### Landing Page
+
 ![alt text](index.png)
+
+![alt text](featuredJobs.png)
+
+![alt text](jobs.png)
+
+![alt text](register.png)
+
+![alt text](login.png)
+
+![alt text](image.png)
