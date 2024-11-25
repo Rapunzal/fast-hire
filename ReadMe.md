@@ -11,22 +11,35 @@ As part of skill based assesment,I completed a project that involved creating a 
 ### HTML Requirements Covered
 
 Have at least three pages.[index, login, register, jobs, featured, apply]
-Keep the grid system consistent between pages as much as possible.
+
+Keep the grid system consistent between pages as much as possible.[ Applied]
+
 Use at least ten different HTML tags.[header, nav, ul, li, div, img, a, button, h1, input, table, thead, caption, th, tr, td, form, label etc.]
+
 Include at least one table.[2 tables used on jobs.html,login.html]
+
 Include at least two forms.[2 forms used on register.html and login.html]
+
 Include at least one dropdown menu.[Dropdown menu used on register.html]
+
 Include at least one of each of the following forms of content:
+
 Text.[include in almost all of the pages]
+
 Images.[ included]
+
 GIFs.[ included on index.html]
 
 ### CSS Requirements
 
 Make use of inline, internal, and external styling. [ included]
+
 Use five different CSS selectors. [class selector, id selector, Descendant combinator, pseudo classes, child combinator on apply.html internal styling]
+
 Use colors that complement each other.[used color theme]
+
 Use Flexbox and/or the Bootstrap Grid.[Used flexbox for styling]
+
 Use at least two CSS animations.[ included 2 css animations on index.html]
 
 ## Live Demo
@@ -39,12 +52,22 @@ Use at least two CSS animations.[ included 2 css animations on index.html]
 
 ![alt text](index.png)
 
+### Featured Job Page
+
 ![alt text](featuredJobs.png)
+
+### Jobs List Page
 
 ![alt text](jobs.png)
 
+### Registration Page
+
 ![alt text](register.png)
+
+### Login Page
 
 ![alt text](login.png)
 
-![alt text](image.png)
+### Apply Page
+
+![alt text](apply.png)
